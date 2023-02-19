@@ -4,7 +4,6 @@ WORKDIR /config
 
 RUN mkdir -vp /config/qBittorrent/config/rss /downloads /config/openvpn
 
-COPY openvpn /config/openvpn
 COPY qBittorrent.conf /config/qBittorrent/config/qBittorrent.conf
 COPY start.sh /config/start.sh
 
